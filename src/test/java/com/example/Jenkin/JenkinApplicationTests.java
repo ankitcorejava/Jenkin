@@ -20,8 +20,15 @@ class JenkinApplicationTests {
 	@Test
 	void contextLoads2() {
 
-		Logger.getLogger("sysout");
+		Logger.getLogger("sysout-contextLoads2");
 	}
+	
+	@Test
+	void contextLoads3() {
+
+		Logger.getLogger("sysout-contextLoads3");
+	}
+
 
 
 }
