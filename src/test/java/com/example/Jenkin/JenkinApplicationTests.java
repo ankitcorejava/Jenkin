@@ -16,5 +16,12 @@ class JenkinApplicationTests {
 
 		loggers.log(null, "Testing....");
 	}
+	
+	@Test
+	void contextLoads2() {
+
+		loggers.log(null, "Testing2....");
+	}
+
 
 }
